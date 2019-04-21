@@ -32,6 +32,9 @@ yum-config-manager \
 yum install docker-ce docker-ce-cli containerd.io -y
 systemctl start docker
 
+####
+# Install Ansible
+
 # Debian
 #echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" >> /etc/apt/sources.list
 #apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
